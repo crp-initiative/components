@@ -1,0 +1,11 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-airbnb", "tslint-config-prettier"],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "no-console": [true, "log", "table", "assert", "clear", "debug", "count", "countReset"],
+    "prettier": [true, { "singleQuote": true }],
+    "member-ordering": false,
+    "member-access": false,
+    "quotemark": [true, "single", "jsx-double"]
+  }
+}
