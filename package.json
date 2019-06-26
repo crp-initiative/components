@@ -23,6 +23,7 @@
     "@babel/core": "7.4.5",
     "@babel/preset-env": "7.4.5",
     "@babel/preset-react": "7.0.0",
+    "@types/classnames": "2.2.8",
     "@types/react": "16.8.18",
     "@types/react-dom": "16.8.4",
     "babel-loader": "8.0.6",
@@ -66,5 +67,8 @@
   "bugs": {
     "url": "https://github.com/crp-initiative/components/issues"
   },
-  "homepage": "https://github.com/crp-initiative/components#readme"
+  "homepage": "https://github.com/crp-initiative/components#readme",
+  "dependencies": {
+    "classnames": "2.2.6"
+  }
 }
